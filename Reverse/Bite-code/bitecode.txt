@@ -1,0 +1,32 @@
+public static boolean checkNum(int);
+    descriptor: (I)Z
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=3, args_size=1
+         0: iload_0
+         1: iconst_3
+         2: ishl
+         3: istore_1
+         4: iload_0
+         5: ldc           #2                  // int 525024598
+         7: ixor
+         8: istore_2
+         9: iload_1
+        10: iload_2
+        11: ixor
+        12: ldc           #3                  // int -889275714
+        14: if_icmpne     21
+        17: iconst_1
+        18: goto          22
+        21: iconst_0
+        22: ireturn
+      LineNumberTable:
+        line 3: 0
+        line 4: 4
+        line 5: 9
+      StackMapTable: number_of_entries = 2
+        frame_type = 253 /* append */
+          offset_delta = 21
+          locals = [ int, int ]
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
