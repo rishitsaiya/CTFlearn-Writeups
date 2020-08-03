@@ -19,7 +19,7 @@ But we can see a Base64 encrypted text `ZmxhZ3tnMWZfb3JfajFmfQ==`
 
 I decoded it online at: https://www.base64decode.org/
 
-<img src="Flag.jpg">
+<img src="Flag.png">
 
 #### Step-4:
 Finally the flag becomes: 
