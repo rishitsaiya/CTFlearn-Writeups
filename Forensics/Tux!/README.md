@@ -4,6 +4,8 @@ The main idea finding the flag is get flag using basic Stego skills.
 #### Step-1:
 After I downloaded `Tux.jpg`, I tried using `strings`, `binwalk`, etc. But no much luck.
 
+<img src="Tux.jpg">
+
 `strings Tux.jpg` output:
 ```
 JFIF
