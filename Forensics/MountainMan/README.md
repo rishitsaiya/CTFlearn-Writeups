@@ -4,7 +4,7 @@ The main idea of finding the flag is intense Forensics Skills.
 #### Step-1:
 After I downloaded `MountainMan.jpg`, I checked for basic commands like `strings`, `binwalk`, etc. But no luck.
 
-<img src="MountainMan.jpg.png">
+<img src="MountainMan.jpg">
 
 #### Step-2:
 For this challenge, I checked only `0xffd9` marker in the whole JPEG file structure. This marker is mentioned in the challenge description, so it is probably a lead to the solution.
