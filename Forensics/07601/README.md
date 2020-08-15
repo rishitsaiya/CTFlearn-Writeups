@@ -4,7 +4,7 @@ The main idea finding the flag using basic forensics techniques.
 #### Step-1:
 After we download the given image `AGT.png` from the cloud, we just try simple techniques.
 
-<img src="AGT.jpg">
+<img src="AGT.png">
 
 #### Step-2:
 I first tried a very basic `strings AGT.png` &  `strings AGT.png | grep {`.
