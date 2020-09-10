@@ -1,0 +1,5 @@
+Hmmm... almost!
+The password is: "ctflag*****" where * is a number.
+Encrypt the password using MD5 and compare it to the given hash!
+As I said, you're gonna have to brute force the password!
+Good luck! :)
