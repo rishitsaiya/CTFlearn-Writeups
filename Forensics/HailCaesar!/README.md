@@ -82,9 +82,6 @@ Note that often my challenges combine forensics and some aspect of cryptography.
 
 Have fun!
 kcbowhunter
-
-
-
 ```
 
 #### Step-5:
