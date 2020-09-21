@@ -4,6 +4,8 @@ The main idea finding the flag is to use strings.
 #### Step-1:
 After I downloaded `math.jpg`, I tried using `strings`, `binwalk`, etc.
 
+<img src="math.jpg">
+
 #### Step-2:
 When I gave input `strings math.jpg`
 
