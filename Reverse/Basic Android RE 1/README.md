@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 #### Step-3:
-This flag has 3 parts. We basically need to dehash the given hash.
+This flag has 3 parts. We basically need to reverse the given hash.
 
 ```
 b74dec4f39d35b6a2e6c48e637c8aedb
