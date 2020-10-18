@@ -19,4 +19,5 @@ So, I tried to see [Hex Dump](https://www.onlinehexeditor.com/) of the `Pho.jpg`
 
 #### Step-3:
 Finally the flag becomes: 
-`CTFlearn{I_Love_Pho!!!}`
+
+[comment]: <> (`CTFlearn{I_Love_Pho!!!}`)
