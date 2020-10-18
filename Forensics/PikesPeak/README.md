@@ -55,4 +55,6 @@ However one of them worked out.
 
 #### Step-5:
 Finally the flag becomes:
-`CTFlearn{Gandalf}`
+
+
+[comment]: <> (`CTFlearn{Gandalf}`)
