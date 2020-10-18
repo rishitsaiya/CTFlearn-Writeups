@@ -33,4 +33,6 @@ I XOR them online at: http://xor.pw/ to get the flag.
 
 #### Step-5:
 Finally the flag becomes:
-`CTFlearn{Gandalf.BilboBaggins}`
+
+
+[comment]: <> (`CTFlearn{Gandalf.BilboBaggins}`)
