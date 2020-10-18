@@ -36,4 +36,6 @@ So, then I used the password: `Linux12345`, we got after decoding the Base64 str
 Voila! I got the flag.
 #### Step-5:
 Finally the flag becomes: 
-`CTFlearn{Linux_Is_Awesome}`
+
+[comment]: <> (`CTFlearn{Linux_Is_Awesome}`)
+
