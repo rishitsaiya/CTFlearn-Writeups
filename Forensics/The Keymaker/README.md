@@ -384,4 +384,5 @@ This will create a file `flag` in the same directory and then we can read the co
 
 #### Step-12:
 Finally the flag becomes:
-`CTFlearn{Ne0.TheMatrix}`
+
+[comment]: <> (`CTFlearn{Ne0.TheMatrix}`)
