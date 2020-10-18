@@ -91,4 +91,6 @@ Nothing interesting. So I lead to decrypting the message from ASCII Ceaser Ciphe
 
 #### Step-6:
 Finally, the flag becomes: 
-`CTFlearn{Maximus.Decimus.Meridius}`
+
+[comment]: <> (`CTFlearn{Maximus.Decimus.Meridius}`)
+
