@@ -25,4 +25,6 @@ I did exactly that and got the flag. My inputs were like [this](https://gchq.git
 
 #### Step-5:
 Finally, the flag becomes: 
-`CTFlearn{Ubuntu_r0ck5}`
+
+
+[comment]: <> (`CTFlearn{Ubuntu_r0ck5}`)
