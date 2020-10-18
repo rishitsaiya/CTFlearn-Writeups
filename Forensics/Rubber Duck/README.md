@@ -103,4 +103,5 @@ sPUj{t
 #### Step-4:
 
 Finally the flag becomes:
-`CTFlearn{ILoveJakarta}`
+
+[comment]: <> (`CTFlearn{ILoveJakarta}`)
