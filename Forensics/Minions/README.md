@@ -40,6 +40,9 @@ https://mega.nz/file/wZw2nAhS#i3Q0r-R8psiB8zwUrqHTr661d8FiAS1Ott8badDnZkoH
 
 #### Step-3:
 We get another image from there `Only_Few_Steps.jpg`.
+
+<img src="Only_Few_Steps.jpg">
+
 If we do `strings Only_Few_Steps.jpg`, we get following output:
 ```bash
 ...
