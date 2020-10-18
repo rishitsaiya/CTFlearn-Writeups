@@ -185,4 +185,5 @@ This gives us a `flag.txt` as output, which has the flag in it.
 
 #### Step-8:
 Finally, the flag becomes: 
-`CTFlearn{Gimli.Is.A.Warrior}`
+
+[comment]: <> (`CTFlearn{Gimli.Is.A.Warrior}`)
