@@ -7,7 +7,7 @@ After we download `data.dat` from the cloud, we understand that it is has 10,000
 #### Step-2:
 So I quickly drafted up `Flag.py` script to get number of such lines:
 
-```
+```py
 count = 0
 
 file = 'data.dat'
@@ -17,8 +17,6 @@ with open(file) as f:
         for line in l:
                 zero = line.count('0')
                 one = line.count('1')
-                '''the condition where the number of '0' is divisible by 3 
-                OR the number of '1' is divisible by 2'''
                 if (zero%3 == 0) or (one%2 == 0):
                         count = count + 1
 
