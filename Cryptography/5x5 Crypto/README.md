@@ -16,7 +16,7 @@ We can decode the message according to given inputs in message above to get the 
 #### Step-3:
 Instead I wrote a `Flag.py` script to get the flag.
 
-```
+```py
 import numpy as np
 
 arr = np.arange(65,90).reshape(5, 5) # Array of alphabet
@@ -37,9 +37,8 @@ print("\n")
 
 If we execute this script by `python3 Flag.py`, I got the following output:
 
-```
+```bash
 CTF{THUMBS_UP}
-
 ```
 #### Step-5:
 
