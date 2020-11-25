@@ -19,7 +19,7 @@ n: 245841236512478852752909734912575581815967630033049838269083
 #### Step-3:
 We run a simple `Flag.py` script to get the flag.
 
-```
+```py
 import gmpy2
 from gmpy2 import mpz
 
