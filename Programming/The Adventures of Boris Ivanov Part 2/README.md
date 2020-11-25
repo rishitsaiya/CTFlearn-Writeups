@@ -18,7 +18,7 @@ After that only work is to join all images.
 
 I executed this simple `Concatenate.py` script and it worked.
 
-```
+```py
 from PIL import Image
 
 listimages=[]
