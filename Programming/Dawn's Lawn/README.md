@@ -99,7 +99,7 @@ I wrote a simple `Flag.py` script to calculate our answer.
 
 The content of `Flag.py` is as follows:
 
-```
+```py
 import numpy as np
 import sys
 
