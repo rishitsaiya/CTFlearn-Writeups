@@ -32,7 +32,7 @@ Now we can feed inputs manually to yield flag.
 
 Running this `Flag.py` script:
 
-```
+```py
 from Crypto.Util.number import inverse
 import binascii
 
