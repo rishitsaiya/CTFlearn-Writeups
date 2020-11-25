@@ -5,7 +5,7 @@ The main idea finding the flag using JAVA knowledge and better Mathematical skil
 #### Step-1:
 After we download `IsItTheFlag.java`, we see the contents as follows:
 
-```
+```java
 public class IsItTheFlag {
 
 public static boolean isFlag(String str) {
@@ -54,7 +54,7 @@ Because if this bigger than 1472541258 , No matter what will be the next letter 
 #### Step-6:
 Hence by executing the following `Flag.py` script by `python3 Flag.py`yields us the flag.
 
-```
+```py
 import sys
 
 def java_string_hashcode(s): # The hashCode function in java.
