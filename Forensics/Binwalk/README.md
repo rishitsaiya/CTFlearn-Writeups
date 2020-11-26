@@ -3,7 +3,9 @@ The main idea finding the flag using Binwalk commands and its extensions.
 
 #### Step-1:
 After downloading `PurpleThing.jpeg` from the cloud, I tried `strings PurpleThing.jpeg | grep {`.
+
 <img src="PurpleThing.jpeg">
+
 I couldn't find anything special.
 
 #### Step-2:
