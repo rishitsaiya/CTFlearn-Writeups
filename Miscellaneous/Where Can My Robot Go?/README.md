@@ -8,7 +8,7 @@ After we read question, there is literally no hint to go anywhere. So I tried
 #### Step-2:
 It showed me following output:
 
-```
+```bash
 User-agent: *  
 Disallow: /70r3hnanldfspufdsoifnlds.html
 ```
