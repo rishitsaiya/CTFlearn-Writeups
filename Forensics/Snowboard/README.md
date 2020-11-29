@@ -29,7 +29,7 @@ We try different commands `strings <file_name> | grep {`.
 
 But after some tries, I tried command `strings -n 8 0` and got this as output:
 
-```
+```bash
 CTFlearn{CTFIsEasy!!!}
 Q1RGbGVhcm57U2tpQmFuZmZ9Cg==
 Canon EOS 6D Mark II
