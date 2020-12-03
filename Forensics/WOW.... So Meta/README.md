@@ -12,7 +12,7 @@ I used `strings 3UWLBAUCb9Z2.jpg` to explore if I found any flag in there.
 
 I got following output:
 
-```
+```bash
 JFIF
 xPhotoshop 3.0
 8BIM
