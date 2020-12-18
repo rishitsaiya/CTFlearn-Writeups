@@ -9,7 +9,7 @@ After we get the link:
 #### Step-2:
 The contents of `bitecode.txt` are as follows:
 
-```
+```java
 public static boolean checkNum(int);
     descriptor: (I)Z
     flags: ACC_PUBLIC, ACC_STATIC
@@ -73,19 +73,18 @@ We write a simple `Bruteforce.c`C program to implement a brute force attack to f
 
 The C Program is as follows:
 
-```
-#include <stdio.h>
-#include <stdlib.h>
-#pragma warning (disable : 4146)
+```c
+# include <stdio.h>
+# include <stdlib.h>
+# pragma warning (disable : 4146)
 
 
-void BruteForce()
-{
+void BruteForce(){
+
 	int flag , x1, x2, x3;
 	flag = -2147483648;			// The biggest negative value of 32bit.
 	x3 = 0;
-	while (x3 != -889275714)
-	{
+	while (x3 != -889275714) {
 		x1 = flag << 3;
 		x2 = flag ^ 525024598;
 		x3 = x1 ^x2;
@@ -95,8 +94,7 @@ void BruteForce()
 }
 
 
-void main()
-{
+void main() {
 	BruteForce();
 	system("pause");
 }
@@ -105,7 +103,7 @@ void main()
 The flag will be obtained after we compile the C program by `gcc Bruteforce.c` and then execute it by `./a.out`.
 
 The output is as follows:
-```
+```bash
 -1352854872 
 sh: 1: pause: not found
 ```
