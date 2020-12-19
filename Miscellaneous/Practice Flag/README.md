@@ -5,6 +5,6 @@ The main idea finding the flag is to have eyes.
 
 The flag is already to given to you. Just paste it.
 
-#### Step-7:
+#### Step-2:
 Finally the flag becomes:
 `flag{CTFLearn_is_awesome}`
