@@ -3,7 +3,7 @@ The main idea of getting the flag is checking the stack for next address.
 
 #### Step-1:
 After I downloaded `jump.asm`, I saw the code to understand what was happening.
-```assembly
+```asm
 0804848f <jump>:
  804848f:       55                      push   %ebp
  8048490:       89 e5                   mov    %esp,%ebp
