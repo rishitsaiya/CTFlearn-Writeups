@@ -46,7 +46,7 @@ The Hex code is as follows:
 
 I converted it to text online to get the flag.
 
-#### Step-7:
+#### Step-8:
 
 Finally the flag becomes:
 `flag{th3_KGB_l0v3s_CTF}`
