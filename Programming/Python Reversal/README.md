@@ -1,5 +1,5 @@
 ## Python Reversal
-The main idea of finding the flag is Buffer Overflow.
+The main idea of finding the flag is reversing the obfuscating fuction.
 
 #### Step-1:
 We are given this file `rev.py` which is a follows:
