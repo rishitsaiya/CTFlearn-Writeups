@@ -13,11 +13,15 @@ I got a credential there:
 
 So here is the idea. I tried to do a POST request to get flag if possible. So I tried with the following command.
 
-`curl -X POST http://165.227.106.113/post.php -d "username=admin&password=71urlkufpsdnlkadsf"`
+```bash
+curl -X POST http://165.227.106.113/post.php -d "username=admin&password=71urlkufpsdnlkadsf"
+```
 
 #### Step-3:
 I got the following output:
-`<h1>flag{p0st_d4t4_4ll_d4y}</h1>`
+```html
+<h1>flag{p0st_d4t4_4ll_d4y}</h1>
+```
 
 #### Step-4:
 
