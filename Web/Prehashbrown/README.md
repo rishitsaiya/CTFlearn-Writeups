@@ -12,7 +12,7 @@ I visited the given link: [Hashbrown Database](http://138.197.193.132:5000/login
 
 This search bar is SQL Injection Vulnerable. So, using Burpsuite, I capture the request header and saved as `header.txt`.
 
-```
+```bash
 POST / HTTP/1.1
 Host: 138.197.193.132:5000
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
