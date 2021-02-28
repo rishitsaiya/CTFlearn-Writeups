@@ -1,0 +1,42 @@
+
+This Reversing challenge is a great place to start if you are new to Reversing.
+
+Reversing assumes you have a good understanding of assembler.
+
+If you are interested in learning Assembler for Linux, there are lots of good resources available.
+Here is a good place to start:
+https://www.youtube.com/watch?v=VQAKkuLL31g&list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
+
+If you find you are not quite ready for assembler yet (maybe you're not quite sure about bits and bytes yet
+but you really want to learn...)
+Check out these videos:
+https://www.youtube.com/watch?v=tLdvEOam3sk&t=865s
+
+There is a good Assembler tutorial site for 32 bit assembler:
+https://asmtutor.com/
+
+Note that the system calls are different between 32 and 64 bit Intel assembly.
+
+Finally, liveoverflow on YouTube is excellent.  Check out his videos on reversing, CTF's etc:
+https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w
+
+---------------------------------------------
+
+If you go to the trouble to solve this reversing challenge, I want you to have the original sources used to
+create the executable.
+
+The file sources.zip.enc is encrypted with:
+openssl enc -e -aes-256-cbc -pbkdf2 -k flag -in sources.zip -out sources.zip.enc
+
+where flag is the solution to this challenge.  Solve the challenge, get the flag, decrypt the sources.
+
+This should allow you to step through in the debugger after the fact if you are interested to answer
+any qustions about the original source used to create the challenge.
+
+Please don't share the flag or these sources or how you solved this challenge, that ruins it for everyone.
+I put a lot of thought and work into creating these challenges and don't want the flags or solutions
+shared or put on a website where someone can get the flag without doing the work required.
+
+I'm @kcbowhunter on Twitter and Discord.  This is only the second reversing challenge I have created, I'd be glad to
+hear what you liked or disliked about this challenge to make the next ones I create better.  Thanks!
+
