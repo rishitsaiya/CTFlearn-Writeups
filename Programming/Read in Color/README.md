@@ -13,6 +13,7 @@ After reading the description of challenge, I wrote a script `exploit.py`, which
 from PIL import Image
 from collections import OrderedDict
 
+#Image Load
 file = Image.open("color_img.png")
 rgb_mode = file.convert("RGB")
 width, height = file.size
