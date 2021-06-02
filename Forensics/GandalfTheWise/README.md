@@ -19,7 +19,7 @@ I decrypted the 1<sup>st</sup> Base64 encrypted string i.e. `Q1RGbGVhcm57eG9yX2l
 It gives a false flag `CTFlearn{xor_is_your_friend}`, but on a brighter side it gives idea of XOR'ing the next 2 strings.
 
 #### Step-3:
-So, I decrypted remaining 2 strings to get hexadecimal texts because in that RFC, ASCII text isn't possible.
+So, I decrypted remaining 2 strings to get hexadecimal texts because in that [RFC](https://datatracker.ietf.org/doc/html/rfc5987), ASCII text isn't possible.
 
 <img src="String2.png">
 
