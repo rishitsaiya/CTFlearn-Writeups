@@ -9,3 +9,13 @@ Link to CTF: https://ctflearn.com/
 <div align = "center">
 	<img src="https://i.ibb.co/GxSMj9p/Logo.png" width="40%" />
 </div>
+
+## Challenges Category Wise
+
+### 1. [Binary](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary)
+### 2. [Cryptography](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Cryptography)
+### 3. [Forensics](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Forensics)
+### 4. [Miscellaneous](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Miscellaneous)
+### 5. [Programming](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Programming)
+### 6. [Reverse](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Reverse)
+### 7. [Web](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Web)
