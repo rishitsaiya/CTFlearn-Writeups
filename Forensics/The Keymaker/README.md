@@ -10,7 +10,7 @@ After we download `The-Keymaker.jpg`, we try to open and see the flag and check 
 #### Step-2:
 I tried simple techniques and easily found answer when we send the command:
 
-`strings PikesPeak.jpg`
+`strings The-Keymaker.jpg`
 
 I and got this as output:
 
@@ -352,6 +352,10 @@ Open the image with hex editor, we find SOF0 with `0xff` `0xc0`, the length of S
 If you don't have idea of mark identifiers of an image, refer below:
 
 http://vip.sugovica.hu/Sardi/kepnezo/JPEG%20File%20Layout%20and%20Format.htm
+
+If you're too lazy to identify the components yourself:
+
+https://cyber.meme.tips/jpdump
 
 Then, the _iv_ is: `0800be00c803011100021101031101ff`
 
