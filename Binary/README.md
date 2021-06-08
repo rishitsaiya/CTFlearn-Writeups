@@ -6,9 +6,9 @@ Binaries, or executables, are machine code for a computer to execute. For the mo
   
 ## Solved Challenges List
 
-1. [Blackbox](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary/Blackbox)
-2. [Favorite Color](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary/Favorite%20Color)
-3. [Jenny](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary/Jenny)
-4. [Lazy Game Challenge](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary/Lazy%20Game%20Challenge)
-5. [RIP my bof](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary/RIP%20my%20bof)
-6. [Simple bof](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary/Simple%20bof)
+1. [Blackbox](./Binary/Blackbox)
+2. [Favorite Color](./Binary/Favorite%20Color)
+3. [Jenny](./Binary/Jenny)
+4. [Lazy Game Challenge](./Binary/Lazy%20Game%20Challenge)
+5. [RIP my bof](./Binary/RIP%20my%20bof)
+6. [Simple bof](./Binary/Simple%20bof)
