@@ -6,7 +6,7 @@ Link to CTF: [https://ctflearn.com/](https://ctflearn.com/)
 
 ## Challenges Category Wise
 
-### 1. [Binary](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Binary)
+### 1. [Binary](https://github.com/rishitsaiya/CTFlearn-Writeups/blob/master/Binary/README.md)
 ### 2. [Cryptography](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Cryptography)
 ### 3. [Forensics](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Forensics)
 ### 4. [Miscellaneous](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Miscellaneous)
@@ -14,13 +14,14 @@ Link to CTF: [https://ctflearn.com/](https://ctflearn.com/)
 ### 6. [Reverse](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Reverse)
 ### 7. [Web](https://github.com/rishitsaiya/CTFlearn-Writeups/tree/master/Web)
 
-#
+---
 
 <div align = "center">
-
-![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) 
+© Rishit Saiya, IIT Dharwad <br> <br>
+	<img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"> 
 	<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/rishitsaiya/CTFlearn-Writeups?style=social"> <img src="https://img.shields.io/github/repo-size/rishitsaiya/CTFlearn-Writeups"> <img src="https://img.shields.io/github/license/rishitsaiya/CTFlearn-Writeups">
 </div>
+<br>
 <div align = "center"> 
 	<img src="https://i.ibb.co/GxSMj9p/Logo.png" width="40%" />
 </div>
