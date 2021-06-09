@@ -43,8 +43,6 @@ ALTERED_IV = bytearray()
 # XOR
 for i in range(16):
     ALTERED_IV.append(ALTERED_MESSAGE[i] ^ ORIGINAL_MESSAGE[i] ^ IV[i])
-
-print(f'Flag: flag{ {ALTERED_IV.hex()},{CT.hex()} }')
 ```
 When we run this as `python3 exploit.py`
 #### Step-4:
