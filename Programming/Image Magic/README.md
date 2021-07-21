@@ -1,37 +1,44 @@
-# Image Magic
-The main idea is finding the flag by doing image processing with Python libraries like numpy and pillow.
+## Image Magic
+The main idea finding the flag is get flag using PIL from Python.
 
 #### Step-1:
-We download the image and see the image is giant line that's a single pixel tall:
-![out copy](./out%20copy.jpg)
+After I downloaded `out copy.jpg`, it is clearly stretched. All we need to do is to set the pixel and realign.
+
+<img src="out copy.jpg">
 
 #### Step-2:
-The first part of [`script.py`](./script.py) just counts how many pixels wide the image is. It outputs 27968 which will be useful later.
+
+So, I wrote `Exploit.py` with the help of PIL to get our flag.
+
 ```python
-img = numpy.array(Image.open("out copy.jpg"))
-print(len(img[0]))
+from PIL import Image
+
+# Specs from old pic
+im = Image.open('out copy.jpg')
+pix_val = list(im.getdata())
+splited = [pix_val[i::92] for i in range(92)]
+
+# Defining new pic
+h, w = 92, 304
+new_im = Image.new("RGB",(w, h))
+pix = new_im.load()
+
+# Setting height and pixels
+for y in range(h):
+    line = splited[y]
+    for x in range(w):
+        r, g, b = line[x]
+        pix[x, y] = (r, g, b)
+
+# New Image
+new_im.save("Flag.jpg", "JPEG")
 ```
 
 #### Step-3:
-```python
-new = []
-line = []
-for i in range(len(img[0])):
-    line.append(img[0][i])
-    if i%92 == 91:
-        new.append(line)
-        line = []
-```
-This part of the script is supposed to reconstruct the image if it has a height of 304 as stated in [this comment](https://ctflearn.com/challenge/89/3000#comment-3000)
+After running this as `python3 Exploit.py`, I got the flag.
+
+<img src="Flag.jpg">
 
 #### Step-4:
-The final part of the script saves the flag in a new image.
-```python
-new = numpy.array(new)
-Image.fromarray(new).save("flag.png")
-```
-![flag](./flag.png)
-
-#### Step-5:
-Finally, the flag becomes:
+Finally the flag becomes: 
 `flag{cool_right?}`
