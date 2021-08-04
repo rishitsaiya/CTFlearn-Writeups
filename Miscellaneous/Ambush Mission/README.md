@@ -28,4 +28,4 @@ Finally again Base64. Looked small. Hoped it would be flag.
 
 #### Step-6:
 Finally, the flag becomes: 
-`m3Et_me_4t_12_aM`
+`flag{m3Et_me_4t_12_aM}`
