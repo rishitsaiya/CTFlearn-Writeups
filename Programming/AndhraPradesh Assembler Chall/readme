@@ -1,0 +1,87 @@
+Welcome to the Andhra Pradesh CTFLearn Assembler Challenge!
+
+This is an easy Assembly Programming Challenge designed for people that are new to
+assembly language programming.
+
+My Adoni Assembler Challenge on ctflearn.com is designed to be solved before this challenge.
+
+============================================================================
+
+To solve this challenge, you must modify the provided AndhraPradesh.asm source file.
+
+The clnasm.sh script can be used to compile, link and run using ./clnasm.sh.
+
+Modify these constants in the provided AndhraPradesh.asm file:
+
+;   ###################################################################
+;   Change the values of these five constants to solve the challenge
+    con1 db 0x00  ; C syntax for hex constant
+    con2 db 0x00  ;
+    con3 db 0x00
+    con4 db 00h    ; this form for hex constants is popular among assembly language programmers
+    con5 db 00h
+;   ####################################################################
+
+You can step through the debugger or use a reverse engineering tool like Ghidra:
+https://www.nsa.gov/resources/everyone/ghidra/
+
+When the wrong constants are used, the program will exit without revealing the flag.
+
+When the correct constant values are used, the flag is written to stdout.
+
+Good Luck!
+
+============================================================================
+I am available on Twitter and Discord as @kcbowhunter for any specific questions.
+Unfortunately you will have to do your own Assembly language learning,
+some resources are provided below.
+
+============================================================================
+
+This challenge uses the NASM compiler: https://www.nasm.us/
+
+There are lots of videos and resources on the Internet for learning assembler.  These are the ones that I used as a
+basis for building this challenge (and I'm planning on following the same approach for future Assembler
+challenges).
+
+LiveOverflow on YouTube is an excellent resource and this video is a good place to start if
+you do not know assembler: (not required but recommended)
+https://www.youtube.com/watch?v=6jSKldt7Eqs
+
+This challenge (and the next few also) are based on these YouTube videos.
+Please watch all the videos if you have never done any Assembly programming.
+
+x86_64 Linux Assembly #1 - "Hello, World!"
+https://www.youtube.com/watch?v=VQAKkuLL31g
+
+x86_64 Linux Assembly #2 - "Hello, World!" Breakdown
+https://www.youtube.com/watch?v=BWRR3Hecjao
+
+x86_64 Linux Assembly #3 - Jumps, Calls, Comparisons
+https://www.youtube.com/watch?v=busHtSyx2-w
+
+Tutorial on jumps:
+http://www.unixwiz.net/techtips/x86-jumps.html
+
+Registers:
+https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
+
+There are lots of other great internet resources available for learning assembler; Google is your friend.
+=================================================================================================
+Assembly language on Linux can be difficult to learn without using gdb, the Gnu Debugger.  If you are new to gdb this
+is a good opportunity to step through this short program and learn to examine registers etc.
+
+If you are interested in solving Reversing Challenges, knowledge of gdb is required for solving many
+Reversing Challenges.
+=================================================================================================
+
+www.asmtutor.com is also a good website for learning assembler.  However this site is based on
+32 bit assembler, and this challenge is a 64 bit challenge.  You can work through asmtutor.com
+also to learn assembler because the concepts are the same.
+
+One difference between 32 and 64 bit assembler is that the system call numbers are different.
+Here is a table of 64 bit system calls:
+https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+
+====================================================================================================
+
