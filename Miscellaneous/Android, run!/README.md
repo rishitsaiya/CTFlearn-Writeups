@@ -66,4 +66,4 @@ The final flag from the 4th line in above code gives us CTFlearn{"hash"_is_not_s
 
 #### Step-7:
 Finally the flag becomes:
-`CTFlearn{ Spring2019_is_not_secure!}`
+`CTFlearn{Spring2019_is_not_secure!}`
