@@ -28,7 +28,7 @@ We get the `p` & `q` online as follows:
 
 Now we can feed inputs manually to yield flag.
 
-#### Step-5:
+#### Step-4:
 
 Running this `Flag.py` script:
 
@@ -54,12 +54,12 @@ hex_str = hex(m)[2:] # Removing '0x'
 print(binascii.unhexlify(hex_str))
 ```
 
-#### Step-6:
+#### Step-5:
 We get the flag by `python3 Flag.py`
 
 We get this output:
 `b'abctf{b3tter_up_y0ur_e}'`
 
-#### Step-7:
+#### Step-6:
 Finally the flag becomes:
 `abctf{b3tter_up_y0ur_e}`
