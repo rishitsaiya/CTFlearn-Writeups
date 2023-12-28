@@ -4,7 +4,7 @@ The main idea finding the flag using RSA.
 #### Step-1:
 After we download `Jakarta.jpg` from the cloud, we see the image as follows:
 
-<img src="Jakarta.png">
+<img src="Jakarta.jpg">
 
 #### Step-2:
 We proceed by using Exiftool on this by the command: `exiftool -v6 Jakarta.jpg`. It shows the following bytes at the end of output.
