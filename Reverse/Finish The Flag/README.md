@@ -1,5 +1,4 @@
-
-## Fabio's Nachos
+## Finish The Flag
 The main idea finding the flag analyzing the Fibonacci Sequence.
 
 #### Step-1:
@@ -65,6 +64,6 @@ Finally, executing the above script with the command `gdb exec_bin -x ./exploit.
 
 <img src="Flag.png">
 
-#### Step-7:
+#### Step-8:
 Finally the flag becomes:
 `CTFlearn{QR_v30}`
