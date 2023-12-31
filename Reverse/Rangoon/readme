@@ -1,0 +1,29 @@
+This problem is a simple introduction to reversing.
+
+If you have no experience with reversing but know a little of C/C++ 
+these two YouTube videos from LiveOverflow will give you a 
+basic introduction to Reversing to help solve this challenge.
+
+https://www.youtube.com/watch?v=VroEiMOJPm8
+https://www.youtube.com/watch?v=3NTXFUxcKPc
+
+If you are new to reversing my Reykjavik and Riyadh problems are 
+little easier than this one and you probably want to solve those 
+challenges first (after watching the above two videos :-) ).
+
+If you go to the work of solving my Reversing Challenge, I'd like for you to
+be able to see the sources if you are interested.
+
+I have encrytped the zipped sources using the challenge flag as the
+password to decrypt the sources.  Solve the challenge, get the flag,
+decrypt the sources.
+
+openssl enc -d -aes-256-cbc -pbkdf2 -k flag -out sources.zip -in sources.zip.enc
+
+Please don't share the flag with anyone else or share the sources used to
+create the challenge or use this source to create your own challenge.  Please.
+
+I am on Twitter and Discord as @kcbowhunter.  But I can't teach you Assembler or
+Reversing, you have to learn that yourself.  There are lots of good videos available
+on YouTube, LiveOverflow is an excellent place to start.  Good Luck!
+
