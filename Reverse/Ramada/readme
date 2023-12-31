@@ -1,0 +1,38 @@
+Thanks for working on my Reversing Challenge 'Ramada'
+
+This is a 20 point entry level Reversing Challenge.
+I have set the optimization level to 0 to simplify the assembler.
+
+-------------------------------------------------------------------
+
+When you solve this challenge, I think you should be able to see the sources used to create the challenge.
+I mean, if I solved it I would like to see the sources.
+So to see the source files used to create the challenge you have to solve the challenge first, then
+you can use the challenge flag you found to decrypt the sources.zip.enc file provided:
+
+openssl enc -d -aes-256-cbc -pbkdf2 -in sources.zip.enc -out sources.zip -k kernel
+
+where kernel is defined as CTFlearn{kernel} based on the flag you found solving the challenge.
+
+If you are not familiar with openssl:
+openssl enc -help
+shows the options available
+
+Solve the challenge, get the flag, then you can decrypt and read the sources.
+
+--------------------------------------------------------------------
+
+Please do not post this challenge to any websites.
+Please do not post the solution to this challenge to any websites.
+Please do not post the flag for this challenge to any websites (including CTFlearn.com ).
+Please do not share the source files in sources.zip with anyone or upload them to any website.
+Please do not create your own challenge from my sources.
+Thank you.
+
+-----------------------------------------------------------------------
+
+I am available on Twitter and Discord as @kcbowhunter, but I'm afraid you will have to
+do your own research / learning on Reverse Engineering.  I have provided some online
+resources in the file 'reversing' to get you started if you are wondering how to begin learning
+Reverse Engineering.
+

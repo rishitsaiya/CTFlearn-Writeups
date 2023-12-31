@@ -1,0 +1,71 @@
+-----------------------------------------------------------------------------------------------------------
+
+If you are new to Reversing LiveOverflow on YouTube has some great videos, check out his
+Reversing Tutorial:
+https://www.youtube.com/watch?v=VroEiMOJPm8
+
+If you are really new to CTF's and Ethical Hacking but want to learn here is a good place to start:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+-----------------------
+
+And here is a free book on Reverse Engineering / Assembler:
+https://beginners.re/
+
+Ahd the associated reversing challenges:
+https://challenges.re/
+
+------------------------
+
+If you are new to assembler, asmtutor.com is a great place to start.
+It is for 32 bit assembler, but the concepts still apply to 64 bit and you will learn a lot
+if you are new to assembler.  Note that the system calls are different between 32 and 64
+bit assembler.
+
+-------------------------
+
+If you are not sure about hexadecimal notation such as 0xbaadf00d then this is a
+great video series for learning the basics.
+
+I mean, if you look at 0xbaadf00d and don't know immediately how many bytes and bits are in that
+hex value without thinking about it, this video is a great place to learn the basics:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+--------------------------
+
+Some of these Reversing Challenges can be solved using the Ghidra disassembler alone.
+https://ghidra-sre.org/
+If you are serious about Reversing Ghidra should be one of your tools.
+Ghidra is an open source project from the NSA and it's free.
+
+---------------------------
+
+Thanks to @Rivit for pointing out angr.io:
+http://angr.io/
+
+angr is a tool for analyzing binary (executable) files.  It is very powerful tool and has been used to solve
+some of my Reversing challenges and I am sure many others also.
+
+If you do solve one of my Reversing challenges using angr please send me a DM with your angr Python script, I would
+enjoy seeing it.
+
+-----------------------------------
+
+Here is another tool for Reversing:
+https://cerbero.io/
+
+------------------------------------
+
+Ida PRO is the premier disassembler and debugger... but it's commercial and it's expensive:
+https://www.hex-rays.com/products/ida/
+
+------------------------------------
+
+Thanks to @Rivit for passing this resource along too:
+https://medium.com/@vignesh4303/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed
+
+-------------------------------------
+
+You can see that Reversing is a discipline and domain unto itself.  It is an advanced discipline that requires a good
+understanding of Assembly Language.  Be prepared to do a lot of work (see above) if you want to master
+Reversing.
