@@ -1,0 +1,49 @@
+Thanks for working on my Reversing Challenge 'Recklinghausen'
+
+This is designed as a 20 point reversing challenge for CTFlearn.
+It is a little more difficult than my previous 10 point challenges in two ways... but you need to
+find out what those two aspects are for yourself.
+
+If you find this problem too difficult you should try my 10 point Reversing Challenges first:
+
+Reykjavik
+Riyadh
+Rangoon
+
+If you are new to Reversing LiveOverflow on YouTube has some great videos, check out his
+Reversing Tutorial:
+https://www.youtube.com/watch?v=VroEiMOJPm8
+
+If you are really new to CTF's and Ethical Hacking but want to learn here is a good place to start:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+And here is a free book on Reverse Engineering / Assembler:
+https://beginners.re/dl.html
+
+-------------------------------------------------------------------
+
+When you solve this challenge, you can see the source files used to create the challenge if you are interested:
+
+openssl enc -d -aes-256-cbc -pbkdf2 -in sources.zip.enc -out sources.zip -k flag
+
+If you are not familiar with openssl:
+openssl enc -help
+shows the options available
+
+Solve the challenge, get the flag, then you can decrypt the sources.
+
+--------------------------------------------------------------------
+
+Please do not post this challenge to any websites.
+Please do not post the solution to this challenge to any websites.
+Please do not post the flag for this challenge to any websites (including CTFlearn.com ).
+Please do not share the source files in sources.zip with anyone or upload them to any website.
+Thank you.
+
+-----------------------------------------------------------------------
+
+I am available on Twitter and Discord as @kcbowhunter, but I'm afraid you will have to
+do your own research / learning on Reverse Engineering.  I have provided some online
+resources above to get you started if you are wondering how to begin learning
+Reverse Engineering.
+
