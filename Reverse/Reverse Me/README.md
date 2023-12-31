@@ -102,4 +102,4 @@ We then execute the script using the command: `python3 exploit.py`
 
 #### Step-6:
 Finally the flag becomes:
-`Flag: CTFLearn{reversing_is_fun}`
+`CTFLearn{reversing_is_fun}`
