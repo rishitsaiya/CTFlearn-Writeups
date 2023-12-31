@@ -44,6 +44,6 @@ We then execute the script using the command: `python3 exploit.py`
 
 <img src="Flag.png">
 
-#### Step-7:
+#### Step-4:
 Finally the flag becomes:
 `CTFlearn{pr0gr4mm1ng_pr0gr4mm1ng_l4ngu4g3s?}`
