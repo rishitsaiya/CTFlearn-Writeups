@@ -2,7 +2,7 @@
 The main idea finding the flag using the decompiler to understand main function.
 
 #### Step-1:
-After we download `Rangoon.zip` from the cloud, we see there are 4 files namely `Rangoon`, `readme`, `sources.zip.enc` where `Rangoon`is the main executable which is to be reversed.
+After we download `Rangoon.zip` from the cloud, we see there are 3 files namely `Rangoon`, `readme`, `sources.zip.enc` where `Rangoon`is the main executable which is to be reversed.
 
 #### Step-2:
 When we decompile the executable `Rangoon` using [Ghidra](https://ghidra-sre.org/), we see the following function
