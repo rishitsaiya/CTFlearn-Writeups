@@ -1,0 +1,68 @@
+
+Welcome to the CTFlearn.com Reversing Challenge "Raspberry" by kcbowhunter
+
+This challenge is written in Assembly language and is written for people new to reversing and assembly.
+The challenge focuses on working with registers, and with xor, add, sub, mul, div as the main
+instructions needed to reverse engineer the flag.
+
+There is also some shifting and the use of the and instruction to isolate some of the bytes in registers
+for some math operations.
+
+You can probably solve this easier with Ghidra / Binary Ninja / IDA first if you want.
+Then if you are new to assembly this challenge is designed to help teach assembly language programming.
+Step through the Raspberry program and watch the registers to learn more about add, sub, mul, div etc.
+
+This challenge does not include any debugger detection timing checks to allow people new to gdb to linger
+in the debugger and examine the registers without having to worry about getting kicked out of the
+debugger.
+
+-------------------------------------------------------------
+NASM Information:
+Good description of .data, .bss and little and big endian
+http://courses.ics.hawaii.edu/ReviewICS312/morea/X86NASM/ics312_nasm_data_bss.pdf
+
+Intel x86 Assembly Reference:
+https://www.felixcloutier.com/x86/
+
+rdtsc reference:
+https://en.wikipedia.org/wiki/Time_Stamp_Counter
+
+-------------------------------------------------------------
+A new reversing platform with a free web option:
+https://binary.ninja/
+
+-------------------------------------------------------------
+
+Ghidra for Reverse Engineering (free)
+https://ghidra-sre.org/
+-------------------------------------------------------------
+
+Please do not post solutions to this challenge to any website, blog, github etc
+
+-------------------------------------------------------------
+
+After you solve this challenge you can use openssl to decrypt the sources files used to create the challenge
+if this is interesting to you.
+
+openssl enc -d -pbkdf2 -aes-256-cbc -in sources.zip.enc -out sources.zip -k flag
+
+where flag is of the form CTFlearn{kernel}.
+
+You need to solve the challenge first to find the actual kernel and then you can use that to decrypt the sources.
+
+You can use
+>openssl enc -help
+
+to get more information on encrypting and decrypting using openssl.
+
+https://wiki.openssl.org/index.php/Enc is a good reference for openssl.
+
+If you are on a mac you may need to install openssl, some users have reported problems with the forked version used
+on the mac.
+
+Good Luck!
+
+-------------------------------------------------------------
+
+I am available to answer specific questions about this challenge on Twitter and Discord as @kcbowhunter,
+but you must study Assembly Language programming and Reversing on your own.  Good Luck!
