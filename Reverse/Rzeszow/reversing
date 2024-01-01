@@ -1,0 +1,113 @@
+*** For people new to Ethical Hacking and Reversing and maybe don't know Python yet... ***
+
+If you are new to CTF and Ethical Hacking and think Reversing looks really cool and you would like start there, I'm afraid
+that I have some bad news for you.
+
+Reversing is an advanced topic.  A 10 point Reversing problem is going to be much more difficult than a 10 point
+Forensics problem.  Compare my Forensics RubberDuck challenge with my Reykjavik Reversing challenge.
+
+Rubber duck requires the use of the Linux strings command, and can be solved with: strings RubberDuck | less
+Boom: one line typed in at the command prompt and you have found the flag.
+Reversing is not that easy.
+
+Reykjavik requires some understanding of gdb (the Gnu Debugger), Intel Assembler and in particular how to
+examine registers and memory locations of a running program using gdb.  It is much more difficult than
+RubberDuck, even though both problems are only 10 point problems.
+
+I recommend taking a few months to learn Python, then C/C++.  Write as many programs as you can and teach yourself about
+inheritance, object oriented programming and polymorphism.
+
+If you are thinking you want to focus on the software devleopment side of Ethical Hacking:
+   Study and learn the 'Uncle Bob Martin Solid OOP Desisn Principles':
+   https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+   (This might also come in handy for future softwre development job interviews).
+
+   Study and learn the 'Gang of Four Design Patterns':
+   https://springframework.guru/gang-of-four-design-patterns/
+   I'm not saying to memorize them, but have a look at them and understand why they are important.
+   (This also might come in handy for a future software development job interview).
+
+   This isn't meant to be a comprehensive list, just some suggestions of some good reading material
+   to help you develop good object oriented software development skills.
+
+Then take a few more months and learn Assembler for Intel cpu's.  See asmtutor.com.
+
+Then you can start learning about Reversing.
+
+If you are currently using CyberChef for Forensics and Crypto challenges, I have some more bad news for you.
+You are probably two years away from working on Reversing challenges.  Stop using CyberChef and start learning
+Python.  Revisit all those crypto challenges you solved on CyberChef and solve them with Python.  Python is a great
+way to learn programming.  Once you are comfortable with Python learn C/C++.  Then learn
+Assembler.  Then you can start working on Reversing challenges.
+
+-----------------------------------------------------------------------------------------------------------
+
+If you are new to Reversing LiveOverflow on YouTube has some great videos, check out his
+Reversing Tutorial:
+https://www.youtube.com/watch?v=VroEiMOJPm8
+
+If you are really new to CTF's and Ethical Hacking but want to learn here is a good place to start:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+-----------------------
+
+And here is a free book on Reverse Engineering / Assembler:
+https://beginners.re/
+
+Ahd the associated reversing challenges:
+https://challenges.re/
+
+------------------------
+
+If you are new to assembler, asmtutor.com is a great place to start.
+It is for 32 bit assembler, but the concepts still apply to 64 bit and you will learn a lot
+if you are new to assembler.  Note that the system calls are different between 32 and 64
+bit assembler.
+
+-------------------------
+
+If you are not sure about hexadecimal notation such as 0xbaadf00d then this is a
+great video series for learning the basics.
+
+I mean, if you look at 0xbaadf00d and don't know immediately how many bytes and bits are in that
+hex value without thinking about it, this video is a great place to learn the basics:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+--------------------------
+
+Some of these Reversing Challenges can be solved using the Ghidra disassembler alone.
+https://ghidra-sre.org/
+If you are serious about Reversing Ghidra should be one of your tools.
+Ghidra is an open source project from the NSA and it's free.
+
+---------------------------
+
+Thanks to @Rivit for pointing out angr.io:
+http://angr.io/
+
+angr is a tool for analyzing binary (executable) files.  It is very powerful tool and has been used to solve
+some of my Reversing challenges and I am sure many others also.
+
+If you do solve one of my Reversing challenges using angr please send me a DM with your angr Python script, I would
+enjoy seeing it.
+
+-----------------------------------
+
+Here is another tool for Reversing:
+https://cerbero.io/
+
+------------------------------------
+
+Ida PRO is the premier disassembler and debugger... but it's commercial and it's expensive:
+https://www.hex-rays.com/products/ida/
+
+------------------------------------
+
+Thanks to @Rivit for passing this resource along too:
+https://medium.com/@vignesh4303/reverse-engineering-resources-beginners-to-intermediate-guide-links-f64c207505ed
+
+-------------------------------------
+
+You can see that Reversing is a discipline and domain unto itself.  It is an advanced discipline that requires a good
+understanding of Assembly Language.  Be prepared to do a lot of work (see above) if you want to master
+Reversing.
