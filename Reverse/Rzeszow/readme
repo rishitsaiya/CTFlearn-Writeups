@@ -1,0 +1,63 @@
+[This is the second version of this challenge.  The first version had a lot of false positives on finding
+valid characters for the flag.  I think that problem is fixed in this version - kcbowhunter]
+
+This is a Reversing challenge based on the 100 point Rouen Reversing Challenge.
+
+It might be a good idea to solve this challenge before solving Rouen.
+
+Study the code and the print statements to find the flag.
+The key idea here is to find the formula for how the user input flag kernel maps to the scrambled string
+of characters
+
+(where kernel is defined as CTFlearn{kernel})
+
+The challenge here is really to determine how the characters in the kernel string map to the
+characters in the hidden flag string.
+
+Once you do study the assembly language to determine the mapping used, you could write a Python
+script to find the flag, or maybe even use CyberChef.  But the key part of the challenge will be
+extracting the mapping equations from the assembly language.  Or maybe Ghidra.  But I didn't tell you that.
+
+The mapping from the user entered kernel characters to the hidden / scrambled characters in the Rouen
+challenge is more complex, but the concept is tha same.  The ascii value of the entered character in the
+kernel string is used to determine the location in the hidden char string.  So if the two characters don't match,
+then you don't have the correct character in the flag.
+
+The mapping used in Rouen from the user flag kernel to the challenge flag kernel is more complex, but similiar in concept.
+Rouen has a few more levels of complexity, so this so solving this challenge alone does not cover all the concepts used
+in Rouen.
+
+------------------------------------------------------------------
+
+When you solve this challenge, I think you should be able to see the sources used to create the challenge.
+I mean, if I solved it I would like to see the sources.
+
+So to see the source files used to create the challenge you have to solve the challenge first, then
+you can use the challenge flag you found to decrypt the sources.zip.enc file provided:
+
+openssl enc -d -aes-256-cbc -pbkdf2 -in sources.zip.enc -out sources.zip -k kernel
+
+where kernel is defined as CTFlearn{kernel} based on the flag you found solving the challenge.
+
+If you are not familiar with openssl:
+openssl enc -help
+shows the options available
+
+Solve the challenge, get the flag, then you can decrypt and read the sources.
+
+--------------------------------------------------------------------
+
+Please do not post this challenge to any websites.
+Please do not post the solution to this challenge to any websites.
+Please do not post the flag for this challenge to any websites (including CTFlearn.com ).
+Please do not share the source files in sources.zip with anyone or upload them to any website.
+Please do not create your own challenge from my sources.
+Thank you.
+
+-----------------------------------------------------------------------
+
+I am available on Twitter and Discord as @kcbowhunter, but I'm afraid you will have to
+do your own research / learning on Reverse Engineering.  I have provided some online
+resources in the file 'reversing' to get you started if you are wondering how to begin learning
+Reverse Engineering.
+
