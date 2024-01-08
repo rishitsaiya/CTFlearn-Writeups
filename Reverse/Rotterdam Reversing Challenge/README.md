@@ -48,11 +48,11 @@ flag = '_'.join(kernel)
 print("Flag: CTFlearn{" + flag + '}')
 ```
 
-#### Step-5:
+#### Step-4:
 We then execute the script using the command: `python3 exploit.py`
 
 <img src="Flag.png">
 
-#### Step-6:
+#### Step-5:
 Finally the flag becomes:
 `CTFlearn{Rotterda_P0rt_Rh1ne_Bl1tz_W1tte}`
