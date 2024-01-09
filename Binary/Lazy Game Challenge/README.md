@@ -17,6 +17,6 @@ Now I went wild to give all numbers (which I had to guess below 10) greater than
 
 <img src="Flag.png">
 
-#### Step-3:
+#### Step-5:
 Finally the flag becomes:
 `CTFlearn{d9029a08c55b936cbc9a30_i_wish_real_betting_games_were_like_this!}`
